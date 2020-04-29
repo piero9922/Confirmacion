@@ -1,0 +1,76 @@
+:root{
+    --green-color: #5bb034;
+    --grey-color: #97a4b1;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+}
+
+header{
+    padding: 20px 0 0 40px;
+}
+
+header img{
+    width: 160px;
+    height: 50px;
+}
+
+header p{
+    width: 170px;
+    margin: 0;
+    text-align: center;
+    font-size: 13px;
+    color: var(--grey-color);
+    line-height: 20px;
+}
+
+.confirmation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px 0;
+}
+
+.confirmation h1{
+    font-weight: lighter;
+    font-size: 32px;
+}
+
+.confirmation p{
+    width: 450px;
+    height: 100px;
+    font-size: 15px;
+    font-weight: lighter;
+    text-align: center;
+    line-height: 17px;
+    color: var(--grey-color);
+}
+
+form button{
+    padding: 10px 20px;
+    background: var(--green-color);
+    font-size: 14px;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 20px 0;
+
+}
+
+button:hover{
+    background: green;
+}
+
+ul,
+li,
+a{
+    list-style: none;
+    padding: 10px 0;
+    text-decoration: none;
+    color: var(--green-color);
+}
